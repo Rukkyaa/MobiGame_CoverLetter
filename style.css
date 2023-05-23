@@ -3,7 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
-	/* cursor: none; */
+	cursor: none;
 }
 
 body {
@@ -50,7 +50,7 @@ header {
 }
 
 #lock_text, #usb_text, #glass_text {
-	cursor: default;
+	/* cursor: default; */
 }
 
 .hidden {
@@ -188,7 +188,7 @@ header {
 	height: 100%;
 	position: absolute;
 	background: radial-gradient(
-		circle 8em at var(--Xpos) var(--Ypos),
+		circle 12em at var(--Xpos) var(--Ypos),
 		rgba(0, 0, 0, 0),
 		rgb(0, 0, 0)
 	);
